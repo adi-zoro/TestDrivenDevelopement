@@ -27,10 +27,17 @@ class ColourTableTest {
 
 
     @Test
-    public void testAddColor() {
+    public void testAddColor() { //
         table.add(0xFF0000); // Adding red color
         assertEquals(1, table.getAddedColorsSize());
     }
 
+
+    @Test
+    public void testAddDuplicateColor() {
+        table.add(0x00FF00); // Adding green color
+        table.add(0x00FF00); // Adding green color again to check
+        assertEquals(1, table.getAddedColorsSize());
+    }
 
 }
