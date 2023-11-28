@@ -1,0 +1,109 @@
+commit cdf552c07feea1fc5ae7587736aafaf9363fcc9e
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Tue Nov 28 17:44:35 2023 +0000
+
+    update ColourTableTest.java
+    
+    added test to see validity of RBG colour added
+
+commit 39bafa15073622172fd0a289a75a9ffb341f7f5a
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Tue Nov 28 01:07:02 2023 +0000
+
+    generated javadoc
+
+commit f2849c73705a9957a17e2258916d831c1b538a35
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Tue Nov 28 01:04:16 2023 +0000
+
+    Update ColourTable.java
+    
+    added comments and removed some unnecessary code.
+
+commit c946b849ee285324b4c6dc820d473f16b9c61904
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Tue Nov 28 01:02:51 2023 +0000
+
+    Update ColourTableTest.java
+    
+    updated scope from public to void for the test methods
+
+commit 0d0d731ce2cbb9c34a05787f54fc8468779bb065
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Tue Nov 28 00:57:59 2023 +0000
+
+    Update ColourTableTest.java
+    
+    added comments to tests
+
+commit cd1f81607dd8794e4dc8539798acd1d80fb9f9e4
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Tue Nov 28 00:46:38 2023 +0000
+
+    Revert "Update ColourTableTest.java"
+    
+    This reverts commit c51c645ba228e62748a1e1d31e2f5e026ed4092a.
+
+commit c51c645ba228e62748a1e1d31e2f5e026ed4092a
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Tue Nov 28 00:38:18 2023 +0000
+
+    Update ColourTableTest.java
+    
+    added unit test to test invalid rbg color
+
+commit c527d34679e64955edfbe8a109a34093becaf878
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Tue Nov 28 00:17:54 2023 +0000
+
+    Update ColourTableTest.java
+    
+    added test to check total value of added colors
+
+commit d8fcffc6262e19249a4681768969c47c1944fd1e
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Mon Nov 27 23:33:04 2023 +0000
+
+    Update ColourTableTest.java
+    
+    added unit test to check duplicate colour
+
+commit dc20b726b61cfc04f8e7237548c8b4ed9b6b2dc6
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Mon Nov 27 21:40:31 2023 +0000
+
+    Update ColourTable.java
+    
+    added three new methods
+
+commit 0b8b2030a88d918041da0b540a84787245a34ddf
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Mon Nov 27 21:26:01 2023 +0000
+
+    Update ColourTableTest.java
+    
+    added new unit test.
+
+commit 535d7b131bbf9935138501b8ef64c6fe549032fc
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Mon Nov 27 19:05:18 2023 +0000
+
+    Created ColorTable class and Updated test class
+    
+    Created the ColourTable class and added new unit test in test class
+
+commit 4cc88b14569297a5727605ea173da7aaea802db7
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Mon Nov 27 18:51:11 2023 +0000
+
+    Created Test class
+    
+    Created Test class to test the  ColourTable class
+
+commit 49ff890f0f7e40cf9a7849d7fb74d5af338aa23e
+Author: adi-zoro <150170922+adi-zoro@users.noreply.github.com>
+Date:   Mon Nov 27 18:35:57 2023 +0000
+
+    Creating POM xml
+    
+    Creating initial project and pushing POM xml
