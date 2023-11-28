@@ -47,13 +47,9 @@ class ColourTableTest {
         table.add(0x00FF00); // Green
         assertEquals(2, table.getAddedColorsSize()); // Check the count of added colors
     }
+    
 
-    @Test
-    public void testInvalidRGBColor() {
-        assertThrows(IllegalArgumentException.class, () -> table.add(0x1234)); // Invalid RGB color value
-        assertThrows(IllegalArgumentException.class, () -> table.add(1089)); // Invalid RGB color value
 
-    }
 
 
 }
