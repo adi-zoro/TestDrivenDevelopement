@@ -40,4 +40,16 @@ class ColourTableTest {
         assertEquals(1, table.getAddedColorsSize());
     }
 
+    @Test
+    public void testAddValidColors() {
+        // Add valid colors
+        table.add(0xFF0000); // Red
+        table.add(0x00FF00); // Green
+        assertEquals(2, table.getAddedColorsSize()); // Check the count of added colors
+    }
+    
+
+
+
+
 }
