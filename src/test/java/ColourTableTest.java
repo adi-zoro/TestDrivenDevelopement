@@ -1,6 +1,5 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class ColourTableTest {
@@ -8,7 +7,7 @@ class ColourTableTest {
     private ColourTable table;
 
     @BeforeEach //this is used to signal the annotated method should be executed before each Test method
-     void setUp() {
+     void initiate() {
         table = new ColourTable(4); // Setting up a ColourTable with 4 colors for testing
     }
 
@@ -45,8 +44,18 @@ class ColourTableTest {
         // Add valid colors
         table.add(0xFF0000); // Red
         table.add(0x00FF00); // Green
-        assertEquals(2, table.getAddedColorsSize()); // Check the count of added colors
+        assertEquals(2, table.getAddedColorsSize());
     }
+
+
+    @Test //tests whether RGB colour added was valid or not.
+    public void testInvalidRGBColor() {
+        assertThrows(IllegalArgumentException.class, () -> table.add(0x1234567));
+        assertThrows(IllegalArgumentException.class, () -> table.add(-179));
+    }
+
+
+
 
 
 }
