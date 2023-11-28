@@ -19,11 +19,12 @@ public class ColourTable { //initiating class ColourTable
 
    //creating method to check whether color added is valid 24 bit RGB or not
     private boolean isValidRGB(int color) {
-        int red = (color >> 16) & 0xFF;
+        int red = (color >> 16) & 0xFF; // extracting the red, green and blue components of a colour
         int green = (color >> 8) & 0xFF;
         int blue = color & 0xFF;
         int additional = color & 0xFF000000 ; // Masking off bits above the 24-bit range
 
+       //checking if color components fall within the right range of a 24 bit rgb color
         return additional == 0 && red >= 0 && red <= 255 && green >= 0 && green <= 255 && blue >= 0 && blue <= 255;
     }
 
